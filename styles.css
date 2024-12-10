@@ -1,0 +1,57 @@
+.weathercond{
+    width: 100px;
+}
+body{
+    background-color: black;
+}
+.enter{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+.enter::placeholder{
+    font-size: 15px;
+}
+.centralcontainer{
+    background: linear-gradient(135deg, #00feba, #5b548a );
+    max-width: 470px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 35%;
+    right: 35%;
+    top: 150px;
+    padding: 20px;
+    border-radius: 40px;
+}
+.search{
+    width: 25px;
+    height: 25px;
+    
+}
+.top{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    position: relative;
+    left: 15%;
+}
+.displayinfo{
+    display: flex;
+    text-align: center;
+    column-gap: 120px;
+}
+.winspeed{
+    display: flex;
+    align-items: center;
+    
+}
+.sea{
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
